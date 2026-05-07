@@ -1,0 +1,18 @@
+{
+  "name": "rrop-discord-recorder",
+  "version": "1.0.0",
+  "description": "RROP Discord call recorder bot",
+  "main": "bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.9.0",
+    "@discordjs/voice": "^0.16.1",
+    "discord.js": "^14.14.1",
+    "form-data": "^4.0.0",
+    "node-fetch": "^3.3.2",
+    "prism-media": "^1.3.5"
+  }
+}
